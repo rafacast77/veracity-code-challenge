@@ -1,0 +1,21 @@
+.ConsumerList{
+  border:1px solid #000;
+  font-family:arial;
+  height:400px;
+  margin:0;
+  
+}
+.ConsumerList ul{
+  list-style:none;
+  max-height:400px;
+  margin:0;
+  overflow:auto;
+  padding:0;
+  text-indent:10px;
+}
+.ConsumerList ul li{
+  line-height:27px;
+}
+.ConsumerList ul li:nth-child(even){
+  background:rgba(186, 230, 250, 0.63);
+}
